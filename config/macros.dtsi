@@ -1,3 +1,9 @@
+macro_print: macro_print{
+compatible = "zmk,behavior-macro";
+label = "macro_print";
+#binding-cells = <0>;
+bindings = <&kp LG(P)>;
+};
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
@@ -8,7 +14,7 @@ macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp LEFT_COMMAND>, <&kp NUMBER_4>;
+bindings = <&kp LG(C)>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
